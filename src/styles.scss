@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+@import 'ag-grid-community/styles/ag-theme-balham.css';
+
+html, body {
+  font-family: Roboto, Arial, Helvetica, sans-serif !important;
+  // need to override the prime dialog font
+  .p-component {
+    font-family: Roboto, Arial, Helvetica, sans-serif !important;
+  }
+}
